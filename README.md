@@ -58,4 +58,4 @@ Contribuições são sempre bem-vindas! Fique à vontade para abrir uma **issue*
 
 ## 📩 Contato
 
-[Seu LinkedIn ou e-mail — se quiser adicionar, me avisa!]
+(https://www.linkedin.com/in/renato-rhuan-7a2b73283/)
