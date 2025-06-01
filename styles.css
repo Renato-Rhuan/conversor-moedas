@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(5, 56, 0);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgb(5, 56, 0);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    border: 3px solid #064b00;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.converter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.currency-row {
+    display: flex;
+    gap: 15px;
+    align-items: end;
+}
+
+.currency-input {
+    flex: 2;
+}
+
+.currency-select {
+    flex: 1;
+}
+
+input, select {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #096900;
+    background: #064b00;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #fff;
+}
+
+input:focus, select:focus{
+    outline: none;
+    border-color: #096900;
+    background: #064b00;
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+}
+
+.converter-btn {
+    background: #064b00;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.3s ease;
+}
+
+
+.converter-btn:hover {
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.2);
+    transform: translateY(-2px);
+}
+
+.loading {
+    margin-top: 20px;
+    display: none;
+}
+
+.spinner {
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #667eea;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    animation: spin 0.5s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
+
+.info {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.result {
+    background: #096900;
+    padding: 20px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 12px;
+    display: none;
+}
+
+.error {
+    background: linear-gradient(45deg, #ff6b6b, #ee5a52);
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: none;
+}
