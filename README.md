@@ -21,10 +21,6 @@ Este é um projeto desenvolvido com o objetivo de **aprimorar meus conhecimentos
 - **Site online:** [https://conversor-moedas-roan-three.vercel.app/](https://conversor-moedas-roan-three.vercel.app/)  
 - **Repositório:** [https://github.com/Renato-Rhuan/conversor-moedas](https://github.com/Renato-Rhuan/conversor-moedas)
 
-## 📸 Demonstração
-
-Se preferir, assista ao vídeo demonstrativo que está disponível localmente.  
-Caso publique em alguma plataforma (YouTube, etc.), pode substituir esta seção por um link ou embed do vídeo.
 
 ## ⚙️ Funcionalidades
 
